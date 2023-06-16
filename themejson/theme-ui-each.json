@@ -1,0 +1,29 @@
+{
+	"settings": {
+		"spacing": {
+			"padding": true,
+			"margin": true,
+			"blockGap": true
+		},
+		"dimensions": {
+			"minHeight": true
+		},
+		"typography": {
+			"lineHeight": true
+		},
+		"color": {
+			"link": true
+		},
+		"border": {
+			"color": true,
+			"width": true,
+			"style": true,
+			"radius": true
+		},
+		"position": {
+			"sticky": true
+		}
+	},
+	"version": 2,
+	"$schema": "https://schemas.wp.org/wp/6.2/theme.json"
+}

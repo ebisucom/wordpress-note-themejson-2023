@@ -1,0 +1,9 @@
+{
+	"settings": {
+		"spacing": {
+			"blockGap": true
+		}
+	},
+	"version": 2,
+	"$schema": "https://schemas.wp.org/wp/6.2/theme.json"
+}

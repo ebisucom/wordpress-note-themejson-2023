@@ -1,0 +1,14 @@
+{
+	"styles": {
+		"spacing": {
+			"padding": {
+				"top": "0px",
+				"right": "20px",
+				"bottom": "0px",
+				"left": "20px"
+			}
+		}
+	},
+	"version": 2,
+	"$schema": "https://schemas.wp.org/wp/6.2/theme.json"
+}

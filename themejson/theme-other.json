@@ -1,0 +1,36 @@
+{
+	"styles": {
+		"spacing": {
+			"blockGap": "40px"
+		},
+		"elements": {
+			"button": {
+				"typography": {
+					"fontSize": "1.125em"
+				}
+			}
+		},
+		"blocks": {
+			"core/social-links": {
+				"spacing": {
+					"blockGap": "50px"
+				}
+			},
+			"core/columns": {
+				"spacing": {
+					"blockGap": "10px"
+				}
+			},
+			"core/group": {
+				"spacing": {
+					"margin": {
+						"top": "28px",
+						"bottom": "28px"
+					}
+				}
+			}
+		}
+	},
+	"version": 2,
+	"$schema": "https://schemas.wp.org/wp/6.2/theme.json"
+}

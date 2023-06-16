@@ -1,0 +1,112 @@
+/*!
+Theme Name: 確認用テーマ
+Theme URI: https://github.com/ebisucom/wordpress-note-themejson-2023
+Author: エビスコム - EBISUCOM
+Author URI: https://ebisu.com/
+Version: 1.0.0
+Tested up to: 6.2.2
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: kakunin
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+確認用テーマ（kakunin） is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+/* 
+++++++++++++++++++++++++++++++
+確認用テーマの設定  
+++++++++++++++++++++++++++++++ 
+*/
+
+/* ▼ フォントファミリー */
+body {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+		Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+}
+
+/* ▼ コンテンツの横幅（ルートコンテナをコンテンツ幅にして横幅をコントロール） */
+/* .entry-content {
+	max-width: 620px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.entry-content > .alignwide {
+	margin-left: calc(25% - 25vw);
+	margin-right: calc(25% - 25vw);
+}
+.entry-content > .alignfull {
+	margin-left: calc(50% - 50vw);
+	margin-right: calc(50% - 50vw);
+} */
+
+/* ▼ コンテンツの横幅（ルートコンテナを全幅にして横幅をコントロール） */
+/* .entry-content > * {
+	max-width: 620px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.entry-content > .alignwide {
+	max-width: 800px;
+}
+.entry-content > .alignfull {
+	max-width: none;
+} */
+
+/* ▼ 左寄せ・右寄せにした画像まわりの余白サイズ */
+/* body .is-layout-constrained > .alignleft,
+body .is-layout-flow > .alignleft {
+	margin-inline-end: 4em;
+	margin-block: 2em;
+}
+body .is-layout-constrained > .alignright,
+body .is-layout-flow > .alignright {
+	margin-inline-start: 4em;
+	margin-block: 2em;
+} */
+
+/* ▼ グループブロック内の最初と最後のブロックの余白サイズ */
+/* .wp-block-group > :first-child {
+	margin-top: 40px;
+}
+.wp-block-group > :last-child {
+	margin-bottom: 40px;
+} */
+
+/* ▼ 背景を指定したグループブロックのパディング */
+/* .wp-block-group.has-background {
+	padding: 1.25em 2.375em;
+} */
+
+/* ▼ 背景を指定したグループブロックのパディング */
+/* .wp-block-group.has-background {
+	padding: 64px 48px;
+} */
+
+/* ▼ 背景を指定したグループブロックのパディング（横並び・縦並びを除く） */
+/* .wp-block-group.has-background:not(.is-layout-flex) {
+	padding: 64px 48px;
+} */
+
+/* ▼ エディターに左右の余白（全幅対応）を反映させる */
+/* .is-root-container {
+	padding-right: var(--wp--style--root--padding-right);
+	padding-left: var(--wp--style--root--padding-left);
+}
+.is-root-container > .alignfull {
+	margin-right: calc(var(--wp--style--root--padding-right) * -1);
+	margin-left: calc(var(--wp--style--root--padding-left) * -1);
+}
+.is-root-container :where(.has-global-padding) {
+	padding-right: 0;
+	padding-left: 0;
+}
+.is-root-container :where(.has-global-padding) > .alignfull {
+	margin-right: 0;
+	margin-left: 0;
+} */
