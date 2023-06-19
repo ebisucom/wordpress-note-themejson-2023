@@ -6,6 +6,8 @@
 
 theme.jsonの影響の確認に使用するテーマやコンテンツデータを収録しています。詳しくは、本書を参照してください。
 
+* [影響一覧](https://ebisu.com/note/classic-theme-json/#effects)
+* [書籍情報（エビスコム）](https://ep.ebisu.com/wordpress-note-themejson-2023/)
 * [書籍情報（Amazon）](https://amzn.to/3Nc19lQ)
 
 
